@@ -6,6 +6,7 @@ def add(a, b):
         intA=a,
         intB=b
     )
+
 def subtract(a, b):
     client = osa.Client('http://www.dneonline.com/calculator.asmx?WSDL')
     return client.service.Subtract(
